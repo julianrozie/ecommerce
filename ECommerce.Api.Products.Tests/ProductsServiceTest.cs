@@ -29,10 +29,10 @@ namespace ECommerce.Api.Products.Tests
         }
 
         [Fact]
-        public async Task GetProductReturnsProductValidId()
+        public async Task GetProductReturnsProductUsingValidId()
         {
             var options = new DbContextOptionsBuilder<ProductsDbContext>()
-                .UseInMemoryDatabase(nameof(GetProductsReturnsAllProducts))
+                .UseInMemoryDatabase(nameof(GetProductReturnsProductUsingValidId))
                 .Options;
             var dbContext = new ProductsDbContext(options);
             CreateProducts(dbContext);
@@ -53,7 +53,7 @@ namespace ECommerce.Api.Products.Tests
         public async Task GetProductReturnsProductUsingInvalidId()
         {
             var options = new DbContextOptionsBuilder<ProductsDbContext>()
-                .UseInMemoryDatabase(nameof(GetProductsReturnsAllProducts))
+                .UseInMemoryDatabase(nameof(GetProductReturnsProductUsingInvalidId))
                 .Options;
             var dbContext = new ProductsDbContext(options);
             CreateProducts(dbContext);
