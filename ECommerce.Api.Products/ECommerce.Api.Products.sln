@@ -5,15 +5,13 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Products", "ECommerce.Api.Products.csproj", "{FE3073E3-66D4-4572-A53B-7A097CE91B68}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "..\WebApplication1\WebApplication1.csproj", "{75050CD7-92B9-46A7-93C9-E53919DDC5CB}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Customers", "..\ECommerce.Api.Customers\ECommerce.Api.Customers.csproj", "{8DDDD130-9371-4997-BD89-7D903C27E126}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Orders", "..\ECommerce.Api.Orders\ECommerce.Api.Orders.csproj", "{B646776C-4F3F-433D-BC4D-DA927F6DD056}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Search", "..\ECommerce.Api.Search\ECommerce.Api.Search.csproj", "{7F5999DF-6137-4378-9039-7A0F2EEB34F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Search", "..\ECommerce.Api.Search\ECommerce.Api.Search.csproj", "{7F5999DF-6137-4378-9039-7A0F2EEB34F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Products.Tests", "..\ECommerce.Api.Products.Tests\ECommerce.Api.Products.Tests.csproj", "{D3217D21-6D38-4B36-9414-CAF98372F052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Products.Tests", "..\ECommerce.Api.Products.Tests\ECommerce.Api.Products.Tests.csproj", "{D3217D21-6D38-4B36-9414-CAF98372F052}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		{FE3073E3-66D4-4572-A53B-7A097CE91B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE3073E3-66D4-4572-A53B-7A097CE91B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE3073E3-66D4-4572-A53B-7A097CE91B68}.Release|Any CPU.Build.0 = Release|Any CPU
-		{75050CD7-92B9-46A7-93C9-E53919DDC5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75050CD7-92B9-46A7-93C9-E53919DDC5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{75050CD7-92B9-46A7-93C9-E53919DDC5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{75050CD7-92B9-46A7-93C9-E53919DDC5CB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8DDDD130-9371-4997-BD89-7D903C27E126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8DDDD130-9371-4997-BD89-7D903C27E126}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DDDD130-9371-4997-BD89-7D903C27E126}.Release|Any CPU.ActiveCfg = Release|Any CPU
